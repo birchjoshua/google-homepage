@@ -1,6 +1,7 @@
 body {
     margin: 0;
     padding: 0;
+    font-family: arial, sans-serif;
 }
 
 li {
@@ -43,4 +44,13 @@ li {
     display: block;
     margin: 0 auto;
     width: 230px;
+}
+
+#squares {
+    display:inline-block;
+    height: 30px;
+    width: 30px;
+    background-image: url(https://ssl.gstatic.com/gb/images/i1_1967ca6a.png);
+    background-size: 528px 68px;
+    background-position: -132px -38px;    
 }    
