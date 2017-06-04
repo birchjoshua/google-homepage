@@ -1,10 +1,46 @@
 body {
-    margin: auto;
-    width: 20%
-}
-
-ul {
-    list-style-type: none;
     margin: 0;
     padding: 0;
 }
+
+li {
+    display: inline;
+}
+
+.logo {
+    margin: 0 auto;
+    width: 400px
+}
+
+.searchbar {
+    display: block;
+    margin: 0 auto;
+    width: 600px
+}
+
+.leftfoot {
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    width: 300px
+}
+
+.rightfoot {
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    width: 300px
+}
+
+.navbar {
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    width: 300px
+}
+
+.thebuttons {
+    display: block;
+    margin: 0 auto;
+    width: 230px;
+}    
