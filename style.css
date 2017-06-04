@@ -5,7 +5,6 @@ body {
     font-size: 13px;
     background-color: #fff;
     -webkit-appearance: none;
-    color: #222;
 }
 
 .viewport {
@@ -35,15 +34,15 @@ form {
 
 ul {
     -webkit-appearance: none;
-    width: 200px
 }
     
 
 a {
     -webkit-appearance: none;
-    color: #222;
+    color: #6c6c6c;    
     background-color: #fff;    
     text-decoration: none;
+    height: 28px;
 }
     
 
@@ -52,6 +51,8 @@ li {
     line-height: 24px;
     outline: none;
     vertical-align: middle;
+    color: #6c6c6c;
+    padding-right: 15px;
 }
 
 .logo {
@@ -87,7 +88,7 @@ li {
     text-align: right;
     align-items: center;
     float: right;
-    color: #000;
+    color: #6c6c6c;
 }
 
 .thebuttons {
@@ -103,4 +104,25 @@ li {
     background-image: url(https://ssl.gstatic.com/gb/images/i1_1967ca6a.png);
     background-size: 528px 68px;
     background-position: -132px -38px;    
-}    
+    opacity: 0.55;
+} 
+
+#jimmy {    
+    padding: 6px 12px;
+    border-radius: 3px;
+    border: 1px solid #4285f4;
+    font-weight: bold;
+    outline: none;
+    background-image: -webkit-linear-gradient(top,#4387fd,#4683ea);
+    color: #fff;
+}
+
+.footelement{
+    padding: 12px 12px;
+}
+
+.footer{
+    display: block;
+    line-height: 40px;
+    background-color: #fff
+}
