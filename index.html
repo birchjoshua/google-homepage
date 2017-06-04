@@ -1,15 +1,16 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <link rel="reset" type="stylesheet" href="reset.css">
   <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
   <div class="navbar">
     <ul>
-      <li><a href="https://mail.google.com/mail/u/0/?tab=wm#inbox">Gmail</a></li>
-      <li><a href="https://www.google.com/imghp?hl=en&tab=wi&authuser=0&ei=Dy4zWZvGEc2YjwPq8aPQDw&ved=0EKouCBcoAQ">Images</a></li>
-      <li><a role="button"></a></li>
-      <li><a href="https://accounts.google.com/ServiceLogin/signinchooser?hl=en&passive=true&continue=https%3A%2F%2Fwww.google.com%2F&flowName=GlifWebSignIn&flowEntry=ServiceLogin">Sign In</a></li>
+      <li id="gmail"><a href="https://mail.google.com/mail/u/0/?tab=wm#inbox">Gmail</a></li>
+      <li id ="images"><a href="https://www.google.com/imghp?hl=en&tab=wi&authuser=0&ei=Dy4zWZvGEc2YjwPq8aPQDw&ved=0EKouCBcoAQ">Images</a></li>
+      <li id="squares"><a role="button"></a></li>
+      <li id="signin"><a href="https://accounts.google.com/ServiceLogin/signinchooser?hl=en&passive=true&continue=https%3A%2F%2Fwww.google.com%2F&flowName=GlifWebSignIn&flowEntry=ServiceLogin">Sign In</a></li>
     </ul>
   </div>
 
@@ -18,11 +19,12 @@
   </div>
   <div class="thebuttons">
     <form action="" method="get">
-      <input type=search>
+      <input type=search width=500px />
         <span class="voicebutton"></span>
       </input>
-      <input type=button />
-      <input type=button />
+      <br>
+      <input id="googlesearch" type=button />
+      <input id="feelinglucky" type=button />
     </form>
   </div>
     <div class="footer">
